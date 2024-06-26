@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./sass/index.css" />
+    <link rel="shortcut icon" href="./icon/fav-icon.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Kiss tech</title>
+  </head>
+  <body>
+    <div id="j-cont" class="container">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#sec-4" onclick="closeNav()">Upcoming batches</a>
+            <a href="#sec-5" onclick="closeNav()">Syllabus</a>
+            <a href="#project" onclick="closeNav()">projects</a>
+            <a href="#sec-7" onclick="closeNav()">fee sturcture</a>
+            <a href="#applyform" onclick="closeNav()">Apply now</a>
+            <a href="#footer" onclick="closeNav()">contact</a>
+        </div>
+        <div
+        id="header"
+        class="row d-flex align-items-center justify-content-between"
+      >
+        <img src="./icon/logo.png" id="img1" class="col-5" alt="" />
+
+        <div class="col-5 d-flex align-items-center justify-content-between">
+          <a href="#applyform"><button class="btn text-white" style="background-color: rgb(142, 92, 186);">Apply</button></a>
+          <img src="./icon/more.png" id="img2" onclick="openNav()" alt="" class="col-3" />
+        </div>
+
+         <!-- <ul
+          id="menu-ul"
+          class="d-flex align-items-center justify-content-between list-unstyled"
+        >
+          <li>Home</li>
+          <li>Upcoming batches</li>
+          <li>Projects</li>
+
+          <li>Contact</li>
+        </ul>  -->
+      </div>
+
+      <div class="row mt-5">
+        <h5 class="text-center fw-bolder col-12 mt-4 fs-1">
+          Start your world class UI/UX design training. Enroll in <br />
+          <span style="color: rgb(111, 0, 208)">Kiss-tech</span> today.
+        </h5>
+
+        <p class="fs-6 text-center mt-2" >
+          Unlock the user psychology and interaction design. step-by-step
+          instruction to design intuitive interfaces. join a community of our
+          crereative and innovator
+        </p>
+
+      </div>
+
+      <div class="row d-flex align-items-center justify-content-center">
+        <button class="col-6 btn rounded-5 text-white" style="background-color: rgb(142, 92, 186);"  >Enroll now</button>
+      </div>
+
+     <img src="./sass/last-removebg-preview.png" class="mt-3" style="width: 95vw;" alt="">
+
+      <div class="row">
+        <div class="d-flex flex-column align-items-center give-jk fs-6 mt-4">
+            <h2>8+</h2>
+            <p>projects</p>
+            <h2>75+</h2>
+            <p>work shop</p>
+            <h2>100+</h2>
+            <p>students enrolled</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <p class="text-center fw-bolder col-12 mt-2 fs-1" >Upcoming Batches</p>
+        <p class="fs-6 text-center mt-2" >Find the latest updates for our classes -
+            combining the world class Offline and
+            online classes to experience</p>
+      </div>
+
+      <div id="sec-4" class="">
+        <h1>Upcoming Batches</h1>
+        <p>Find the latest updates for our classes - combining the world class Offline and online classes to experience
+        </p>
+        <div class="btn-toggle">
+            <button id="bt-1" onclick="toggleBtn2()">Online</button><button id="bt-2"
+                onclick="toggleBtn1()">Offline</button>
+        </div>
+        <div class="coverBox">
+            <div class="outBox" id="b1">
+                <span id="up1">Online Section</span>
+                <h2>UI/UX design program </h2>
+                <div id="databox" class="databox">
+                    <ul>
+                        <li>&#128197; 03 months</li>
+                        <li> &nbsp; &#x939; &nbsp; languages</li>
+                        <li> &#127920; &nbsp; Solts</li>
+                    </ul>
+                    <ul>
+                        <li id="up2"> 29 june 2024</li>
+                        <li> tamil/English</li>
+                        <li id="up3"> 4 out of 15</li>
+                    </ul>
+                </div>
+                <button id="btn-en"><a id="anchor" href="#applyform">Apply now</a></button>
+            </div>
+        </div>
+    </div> 
+ 
+    <div class="row">
+        <h2 class="col-12 text-center fw-bolder my-3" >Our UI/UX course contains</h2>
+        <p class="col-12 text-center fs-6" >"mastering the art of digital experience: a comprehensive UI/UX
+            design journey"</p>
+    </div>
+
+    <div id="sec-5">
+        
+        <img src="./sass/desk (1).jpeg" style="width: 100%;" alt="">
+        
+        <h2>UI/UX syllabus</h2>
+
+        <div class="ch-box" id="ch-1" onclick="openChap(1)">
+            <div class="ch-head" id="ch-h-1">
+                <h3>Chapter - 1</h3>
+                <img src="./icon/down-arrow.png" class="shareimg" alt="">
+            </div>
+            <ul>
+                <li>What is UX Design?</li>
+                <li>What is Interaction Design</li>
+                <li>UX Design Deliverables</li>
+                <li>Basics of HCI </li>
+                <li>Basics of HCI </li>
+                <li>Basics of HCI </li>
+            </ul>
+        </div>
+
+        <div class="ch-box" id="ch-2" onclick="openChap(2)">
+            <div class="ch-head" id="ch-h-2">
+                <h3>Chapter - 2</h3>
+                <img src="./icon/down-arrow.png" class="shareimg" alt="">
+            </div>
+            <ul>
+                <li>User Centered Design</li>
+                <li>Design Thinking</li>
+                <li>Activity Based Design</li>
+                <li>Agile Process</li>
+                <li>Competitor Analyse</li>
+            </ul>
+        </div>
+
+        <div class="ch-box" id="ch-3" onclick="openChap(3)">
+            <div class="ch-head" id="ch-h-3">
+                <h3>Chapter - 3</h3>
+                <img src="./icon/down-arrow.png" class="shareimg" alt="">
+            </div>
+            <ul>
+                <li>Stakeholder & User Interviews</li>
+                <li>Creating Personas</li>
+                <li>Empathy Mapping</li>
+                <li>Information Architecture</li>
+                <li>Building User Journey</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row d-flex align-items-center justify-content-center ">
+        <button class="col-6 btn border-dark-subtle my-3" >Ask for more syllabus</button>
+    </div>  
+
+      <div
+        class="row d-flex align-items-center justify-content-center flex-column give-jk"
+      >
+        <p class="col-12 text-center h1 fw-bolder">Designing Tools</p>
+        <div class="mt-3 jk-s-box">
+          <img src="./img/adobe-photoshop-icon.png" alt="" />
+          <img src="./img/invision-icon.png" alt="" />
+          <img src="./img/adobe-xd-icon.png" alt="" />
+          <img src="./img/pngwing.com.png" alt="" />
+          <img src="./img/prott.jpg" alt="" />
+          <img src="./img/sketch-icon.png" alt="" />
+          <img src="./img/zeplin-icon.png" alt="" />
+          <img style="width: 8vmin" src="./img/figma-icon.png" alt="" />
+          <img src="./img/pngwing.com (1).png" alt="" />
+        </div>
+
+        <p
+          class="row d-flex align-items-center justify-content-center flex-column h1 fw-bolder mt-4"
+        id="project"  >
+          hand-On projects
+        </p>
+
+        <img src="./sass/desk (2).jpeg" class="mt-4" alt="">
+
+        <a class="btn col-6 rounded-5 my-3 text-white" id="give-jk-bg" >Explore Project &rarr;</a>
+      </div> 
+
+      <div id="sec-7">
+        <p>let's apply</p>
+        <h1>Course Fee sturcture</h1>
+        <p>made it's simple affordable</p>
+        <div class="feebox">
+          <div class="feeinbox">
+            <div class="fee-on">
+              <h3>One-time plan</h3>
+              <h2 class="fs-6 fw-bolder">online : RS.15000 /-</h2>
+              <h2 class="fs-6 fw-bolder">offline : RS.20000 /-</h2>
+              <p>&#9658; EMi option avilable</p>
+              <p>&#9658; refer a Student and get 5% - 10% discount</p>
+              <p>&#9658; flexiable timeline</p>
+              <p>&#9658; inlcudes of GST</p>
+            </div>
+            <div class="fee-off">
+              <h3>Dual-time plan</h3>
+              <h2 class="fs-6 fw-bolder">online : RS.7500 /-</h2>
+              <h2 class="fs-6 fw-bolder">offline : RS.20000 /-</h2>
+              <p>&#9658; EMi option avilable</p>
+              <p>&#9658; refer a Student and get 5% - 10% discount</p>
+              <p>&#9658; flexiable timeline</p>
+              <p>&#9658; inlcudes of GST</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="btn col-5 text-white rounded-5 my-3" id="give-jk-bg" >
+          Enroll Now
+        </button>
+      </div>
+
+      <div id="sec-8">
+        <h1>Apply Now</h1>
+        <p>
+          Next batch Weekend 22 June 2024 & Weekday 9 July 2024.We have very
+          limited seats in each batch.
+        </p>
+
+        <form id="applyform">
+          <div class="in">
+            <label for="name" id="in-name" >Name</label>
+            <input type="text" required/>
+          </div>
+          <div class="in">
+            <label for="email">E-mail</label>
+            <input type="text" required/>
+          </div>
+          <div class="in">
+            <label for="num">ph number</label>
+            <input type="text" required/>
+          </div>
+          <button onclick="handleForm()" >Apply here for get notify</button>
+        </form>
+
+        <p>
+          We don’t share your data. Read our Privacy Policy. Once you submit,
+          will contact you immediately.
+        </p>
+
+        <div id="footer">
+          <h3>Location &rarr;</h3>
+          <p>No.33, rolls Apart , nugambakkam , chennai-600097</p>
+          <a href="#" class="w-100 text-decoration-none">
+            <button
+            class="btn bg-white w-75 text-center d-flex align-items-center justify-content-around text-primary rounded-5 mb-3"
+          >
+            <i class="material-icons">place</i>open in google Map
+            <i class="material-icons">zoom_out_map</i>
+          </button>
+          </a>
+          <!-- <h5>contact number : 904282422</h5> -->
+
+          <div class="social">
+            <img src="./media/whatsapp (1).png" alt="">
+            <img src="./media/telephone.png" alt="">
+            <img src="./media/instagram.png" alt="">
+            <img src="./media/telegram.png" alt="">
+          </div>
+         
+          <p style="margin-bottom: 5%; width: 100%; text-align: center">
+            copyright @ tj | 2024
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./venila.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
