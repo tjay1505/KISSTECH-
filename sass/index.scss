@@ -7,7 +7,7 @@ $c1: rgb(142, 92, 186);
 }
 #j-cont {
   height: auto;
-  border: 1px solid red;
+
 }
 
 //===============================menu
@@ -51,7 +51,7 @@ $c1: rgb(142, 92, 186);
   width: 100%;
   position: fixed;
   background-color: #fff;
-  border: 1px solid;
+  //border: 1px solid;
   z-index: 2;
   transition: all 0.2s;
   #img1 {
@@ -72,6 +72,18 @@ $c1: rgb(142, 92, 186);
 }
 #give-jk-bg{
     background-color: rgb(142, 92, 186);
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 0.5s all linear;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
 }
 //===============================for sec-4
 #sec-4 {
