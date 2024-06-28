@@ -44,9 +44,11 @@
 }
 
 #header {
-  height: 10vh;
+  height: 15vmin;
+  width: 100%;
   position: fixed;
   background-color: #fff;
+  border: 1px solid;
   z-index: 2;
   transition: all 0.2s;
 }
@@ -147,9 +149,11 @@
   height: 90%;
   width: 45%;
   list-style: none;
-  font-size: 10px;
-  display: grid;
-  place-items: center;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: space-evenly;
 }
 .databox ul li {
   width: -moz-max-content;
@@ -381,7 +385,7 @@
   display: flex;
   flex-direction: column;
   align-items: self-start;
-  padding-left: 2%;
+  padding-left: 5%;
 }
 #footer h3, #footer h5, #footer p {
   width: 90%;
@@ -410,4 +414,61 @@
 .img-6 img {
   width: 100%;
   border-radius: 4vmin;
+}
+
+@media only screen and (min-width: 500px) {
+  .jk-s-box {
+    height: 70vh;
+  }
+  .fee-on, .fee-off {
+    width: 30%;
+  }
+  #sec-8 #applyform {
+    height: 60vh;
+    width: 70vw;
+  }
+  #google {
+    width: 30%;
+  }
+  #google button {
+    width: 30%;
+  }
+}
+@media only screen and (min-width: 700px) {
+  #sec-8 #applyform {
+    height: 60vh;
+    width: 50vw;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .outBox {
+    height: 80vh;
+  }
+  #sec-4 {
+    height: 90vh;
+  }
+  #sec-4 .coverBox {
+    height: 90%;
+  }
+  #sec-4 .coverBox .databox {
+    margin: 2% 0;
+    width: 60%;
+  }
+  #sec-4 .coverBox .databox ul {
+    font-size: 15px;
+  }
+  #sec-4 .coverBox .outBox {
+    width: 50%;
+    height: 50vh;
+  }
+  #sec-4 .coverBox .outBox span {
+    width: 50%;
+    height: 20%;
+    margin: 3% 0;
+  }
+  #sec-4 .coverBox .outBox button {
+    width: 60%;
+    height: 20%;
+    margin: 3% 0;
+  }
 }/*# sourceMappingURL=index.css.map */
